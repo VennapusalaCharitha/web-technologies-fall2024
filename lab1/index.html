@@ -1,1 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <title>Charitha</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <style>
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2.8em;
+            margin-bottom: 20px;
+        }
+
+        h2,
+        h3,
+        h4 {
+            color: #34495e;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.8;
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        img.profile {
+            float: left;
+            margin-right: 20px;
+            max-width: 200px;
+            height: auto;
+            border-radius: 50%;
+            border: 4px solid #2c3e50;
+        }
+
+        img.profile:hover {
+            transform: scale(1.01);
+        }
+
+        img.hobby {
+            display: block;
+            margin: 10px auto;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: #fff;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #555;
+            margin: 30px auto;
+            max-width: 600px;
+            text-align: center;
+            font-size: 1.3em;
+            position: relative;
+        }
+
+        hr {
+            border: 0;
+            height: 2px;
+            background: #ccc;
+            margin: 30px auto;
+            max-width: 700px;
+        }
+
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        a:hover {
+
+            text-decoration: underline;
+        }
+
+        .dropdown-container {
+            margin-top: 20px;
+        }
+
+        select {
+            padding: 8px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        select:hover {
+            border-color: #2c3e50;
+        }
+
+        .left-align {
+            text-align: left;
+        }
+
+        ul,
+        ol {
+            padding-left: 20px;
+            list-style-position: inside;
+            margin-bottom: 20px;
+            transition: opacity 0.5s;
+        }
+
+        ul li,
+        ol li {
+            padding: 5px 0;
+            transition: color 0.3s;
+        }
+
+        ul li:hover,
+        ol li:hover {
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Main Title -->
+        <h1>My Favorite Hobbies</h1>
+
+        <!-- Introduction Section with Profile Image -->
+        <div class="clearfix">
+            <img src="profilepic.jpeg" alt="Charitha Vennapusala's Profile Picture" class="profile">
+            <p>Hello! I'm Charitha Vennapusala, and I have a variety of hobbies that keep me energized and inspired.
+                Below, you'll find more about what I love to do in my free time.</p>
+        </div>
+
+        <!-- Hobbies Overview -->
+        <h2>Exploring My Hobbies</h2>
+
+        <!-- Hobby 1: Photography -->
+        <h3 class="left-align">Photography</h3>
+        <p>Capturing moments through the lens is a passion of mine. It allows me to see the world from different
+            perspectives and preserve memories that last a lifetime.</p>
+        <img src="photography.png" alt="A beautiful landscape photograph" class="hobby">
+
+        <!-- Unordered List for Photography -->
+        <ul>
+            <li>Landscape Photography</li>
+            <li>Portrait Photography</li>
+            <li>Wildlife Photography</li>
+        </ul>
+
+        <!-- Hobby 2: Cooking -->
+        <h4 class="left-align">Cooking</h4>
+        <p>Experimenting with new recipes and flavors is both fun and rewarding. I enjoy creating delicious meals for
+            family and friends, exploring cuisines from around the world.</p>
+
+        <!-- Ordered List for Cooking -->
+        <ol>
+            <li>Italian Cuisine</li>
+            <li>Indian Cuisine</li>
+        </ol>
+
+        <!-- Hobby 3: Reading -->
+        <h4 class="left-align">Reading</h4>
+        <p>Diving into different worlds through books is a relaxing and enriching hobby. It enhances my knowledge and
+            stimulates my imagination.</p>
+
+        <!-- Unordered List for Reading -->
+        <ul>
+            <li>Fiction</li>
+            <li>Non-Fiction</li>
+            <li>Biographies</li>
+        </ul>
+
+        <!-- Blockquote and Horizontal Rule -->
+        <blockquote>"The only way to do great work is to love what you do." - Steve Jobs</blockquote>
+        <hr>
+
+        <!-- Links Section -->
+        <h2>Learn More About My Hobbies</h2>
+        <p>Check out more about <a href="https://www.nationalgeographic.com/photography">Photography Techniques</a>.</p>
+        <p>Visit <a href="https://www.allrecipes.com/" target="_blank">All Recipes</a> for some amazing cooking ideas.
+        </p>
+
+        <!-- Select Dropdown -->
+        <h2>Choose Your Favorite Hobby</h2>
+        <center>
+            <div class="dropdown-container">
+                <form>
+                    <label for="hobbies">Select a hobby you enjoy:</label>
+                    <select id="hobbies" name="hobbies">
+                        <option value="photography">Photography</option>
+                        <option value="cooking">Cooking</option>
+                        <option value="reading">Reading</option>
+                    </select>
+                </form>
+            </div>
+        </center>
+
+        <!-- Hobbies Table -->
+        <h2>My Hobbies at a Glance</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Hobby</th>
+                <th>Last Time</th>
+            </tr>
+            <tr>
+                <td>Charitha Vennapusala</td>
+                <td>Photography</td>
+                <td>August 2024</td>
+            </tr>
+            <tr>
+                <td>Charitha Vennapusala</td>
+                <td>Cooking</td>
+                <td>Every Day</td>
+            </tr>
+            <tr>
+                <td>Charitha Vennapusala</td>
+                <td>Reading</td>
+                <td>September 2024</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
